@@ -1,6 +1,5 @@
 # AIDL2021_Recruitment-Challenge
 Introduction: Analysis based on Kaggle's "Top Streamers on Twitch 2020" dataset. Predictions for the number of Followers gained are made utilizing the Tensorflow 2.6 DNN model. Also a recruitment challenge for joining AIDL 2021 at HKUST.
 
-<br>- The detailed code for the recruitment challenge could be found on ```Challenge Twitch Data_DNN_ReLU + Adam.ipynb```.
-
-<br>- Analysis and Predictions based on the original Twitch dataset are also conducted. Access ```Original Twitch Data_DNN_ReLU + Adam.ipynb```.
+<br>```Trial 1_5LDNN.ipynb```: Got a RMSE loss value of 424781.0, what a shame. Made some mistakes here; I wouldn't read this, but will still keep this here.
+<br>```Trial 2_Data Augmentation+9LDNN.ipynb```: Augmented the dataset by adding random artificial data that lies in the IQR range of Followers gained. Got a RMSE loss value of 101719.3; significant improvement since the previous trial. Yay.
