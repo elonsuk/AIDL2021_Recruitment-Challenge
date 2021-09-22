@@ -6,3 +6,5 @@ Analysis based on Kaggle's "Top Streamers on Twitch 2020" dataset. Predictions f
 
 <br>```Trial 2_Data Augmentation+9LDNN.ipynb```: Augmented the dataset by adding random artificial data that lies in the IQR range of Followers gained. Got a RMSE loss value of 101719.3; significant improvement since the previous trial. Yay.
 <br>- DNN model consists 9 layers in total - 2 respective input and output layers; 7 hidden layers.
+
+<br>```Trial 3_Outliers Removed+Data Augmentation+9LDNN+Stacked Model.ipynb```: Augmented the dataset after removing the outliers, used a Deep Neural Network model and a stacked model of XGBRegressor, LGBMRegressor, and Random Forest Regressor for training and predictions.
