@@ -13,6 +13,8 @@ Analysis based on Kaggle's "Top Streamers on Twitch 2020" dataset. Predictions f
 
 <br>```Trial 3_Outliers Removed+Data Augmentation+9LDNN+Stacked Model.ipynb```: Augmented the dataset after removing the outliers, used a Deep Neural Network model and a stacked model of XGBRegressor, LGBMRegressor, and Random Forest Regressor for training and making predictions. Got a RMSE loss value of 124260.55540; this rather degraded in performance relative to the model from Trial 2.
 
+<br>```Trial 4_Feature Engineering+9LDNN.ipynb```: Conducted feature engineering to organize the vectors in the dataset; generated and trained a DNN model for making predictions. Got a RMSE loss value of 102970.79471.
+
 <br>**.csv files**
 
 <br>```Trial_4_Predictions.csv```: Predictions from the fourth trial. Trial 4 solely utilized the 9LDNN model from Trial 3 for training and making predictions. Model file got accidentally deleted, but refer to Trial 3 for the details of the DNN model.
