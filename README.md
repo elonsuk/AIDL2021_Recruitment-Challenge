@@ -1,6 +1,8 @@
 # AIDL2021_Recruitment-Challenge
 Analysis based on Kaggle's "Top Streamers on Twitch 2020" dataset. Predictions for the number of Followers gained are made based on the other features available in the dataset. Analysis is done via mainly utilizing the Tensorflow 2.6 and Keras API, and other regression APIs. Also a recruitment challenge for joining AIDL 2021 at HKUST.
 
+<br>```Final Solution.ipynb```: This file is not used for making prediction results. Although predictions are made, I did not upload this on Kaggle. Still, evaluation of the RMSE results are made internaly in the project. This note deals the ultimate way of approach in an organized manner I discovered through numerous trials and failures made thoughout the challenge. This includes Feature Engineering and the generation and training of a Deep Neural Network model. If you want to read through the most generally implemented solution for this type of regression problem, read this. While, if you want to explore the various attempts and mistakes made during this challenge, read through the other notes in 
+
 <br>**.ipynb files**
 
 <br>```Trial 1_5LDNN.ipynb```: Got a RMSE loss value of 424781.02578, what a shame. Made some mistakes here; I wouldn't go through this again, but this will remain here.
