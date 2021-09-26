@@ -17,4 +17,4 @@ Analysis based on Kaggle's "Top Streamers on Twitch 2020" dataset. Predictions f
 
 <br>**.csv files**
 
-<br>```Trial_4_Predictions.csv```: Predictions from the fourth trial. Trial 4 solely utilized the 9LDNN model from Trial 3 for training and making predictions. Model file got accidentally deleted, but refer to Trial 3 for the details of the DNN model.
+<br>```Trial_4_Predictions.csv```: Predictions from the fourth trial. Trial 4 solely utilized the 9LDNN model from Trial 3 for training and making predictions. Model file got accidentally deleted, but refer to Trial 3 for the details of the DNN model. No correlation with ```Trial 4_Feature Engineering+9LDNN.ipynb```; not a prediction made from this project. Naming error.
